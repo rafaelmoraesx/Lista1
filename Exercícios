@@ -1,0 +1,61 @@
+1.
+public class Exercicio1 {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
+}
+
+
+
+2.
+import java.util.Scanner;
+
+public class Exercicio2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Digite seu nome: ");
+        String nome = scanner.nextLine();
+        
+        System.out.println("Olá, " + nome + "! Bem-vindo ao programa.");
+        
+    }
+}
+
+
+
+3.
+public class Exercicio3 {
+    public static void main(String[] args) {
+        String parte1 = "Olá,";
+        String parte2 = " mundo!";
+        
+        String mensagemCompleta = parte1 + parte2;
+        
+        System.out.println(mensagemCompleta);
+    }
+}
+
+
+4.
+public class Exercicio4 {
+    public static void main(String[] args) {
+        String frase = "Esta é uma frase de exemplo para exercício.";
+        
+        // Determinar e imprimir o tamanho da frase
+        int tamanho = frase.length();
+        System.out.println("Tamanho da frase: " + tamanho);
+        
+        // Converter a frase para letras maiúsculas e imprimir
+        String maiusculas = frase.toUpperCase();
+        System.out.println("Frase em maiúsculas: " + maiusculas);
+        
+        // Converter a frase para letras minúsculas e imprimir
+        String minusculas = frase.toLowerCase();
+        System.out.println("Frase em minúsculas: " + minusculas);
+        
+        // Extrair a substring "frase de exemplo" e imprimir
+        String substring = frase.substring(11, 28); // Índices 11 a 27
+        System.out.println("Substring extraída: " + substring);
+    }
+}
