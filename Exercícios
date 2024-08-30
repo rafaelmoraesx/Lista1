@@ -1,5 +1,5 @@
 1.
-public class Exercicio1 {
+public class exer1 {
     public static void main(String[] args) {
         System.out.println("Olá, mundo!");
     }
@@ -10,7 +10,7 @@ public class Exercicio1 {
 2.
 import java.util.Scanner;
 
-public class Exercicio2 {
+public class exer2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
@@ -25,7 +25,7 @@ public class Exercicio2 {
 
 
 3.
-public class Exercicio3 {
+public class exer3 {
     public static void main(String[] args) {
         String parte1 = "Olá,";
         String parte2 = " mundo!";
@@ -38,7 +38,7 @@ public class Exercicio3 {
 
 
 4.
-public class Exercicio4 {
+public class exer4 {
     public static void main(String[] args) {
         String frase = "Esta é uma frase de exemplo para exercício.";
         
